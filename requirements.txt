@@ -1,0 +1,21 @@
+ultralytics==8.3.111
+
+
+#####################
+# pip uninstall torch torchvision
+
+## Use the following command to install the dev build of PyTorch that supports CUDA 12.4:
+# pip install `
+#   torch==2.6.0+cu124 `
+#   torchvision==0.21.0+cu124 `
+#   torchaudio==2.6.0+cu124 `
+#   --extra-index-url https://download.pytorch.org/whl/cu124
+
+
+
+## check if PyTorch is using CUDA correctly
+# import torch
+# print(torch.cuda.is_available())
+# print(torch.cuda.current_device())
+# print(torch.cuda.get_device_name(torch.cuda.current_device()))
+# NVIDIA RTX 1000 Ada Generation Laptop GPU

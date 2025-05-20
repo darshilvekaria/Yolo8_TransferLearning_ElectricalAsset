@@ -1,0 +1,5 @@
+with 3006 total images and a 72/20/8 split
+
+Training Set (72%) : 2164 images
+Validation Set (20%): 601 images
+Test Set (8%) : 241 images
